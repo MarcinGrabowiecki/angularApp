@@ -1,1 +1,6 @@
 calculator
+Result:<b>{{result}}</b>
+<xspan class="input-group-btn">
+<input type="text" ng-model="input" placeholder="calculate your calculations here..." class="form-control">
+  <input type="button" class="btn btn-primary" value="Calculate" ng-click="result=calculate(input)">
+</xspan>
